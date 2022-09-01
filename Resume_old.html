@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://www.resumonk.com/NisarAhmedKhan -->
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./Nisar Ahmed Khan_files/css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="./Nisar Ahmed Khan_files/c38cf4c17a"></script><script src="./Nisar Ahmed Khan_files/nr-1130.min.js"></script><script async="" src="./Nisar Ahmed Khan_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c38cf4c17a","applicationID":"48896974","transactionName":"dF4KF0AKWV9XSxsVTFVdDQBtF1BAR1RRFhZEWQsU","queueTime":4,"applicationTime":96,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+
+<title>Nisar Ahmed Khan - Digital Marketing | eCommerce | Product</title>
+<meta name="description" content="A passionate intrapreneur with eighteen years of cross-functional leadership experience with one of the world’s most admired Fortune 100 corporation.Skilled ...">
+<meta name="keywords" content="resume, cv, resume builder, online resume generator, creative resume, online cv builder, professional resume, beautiful resume designs, online resume builder, create beautiful resumes online, desiger resumes, simple resume online, pdf resume, elegant">
+<link rel="author" href="https://plus.google.com/107558249436064765427/posts">
+<link rel="publisher" href="https://plus.google.com/+Resumonk">
+<meta property="og:title" content="Nisar Ahmed Khan - Digital Marketing | eCommerce | Product">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.resumonk.com/NisarAhmedKhan">
+<meta property="og:image" content="https://www.resumonk.com/assets/resumonk-fb-og.jpg">
+<meta property="og:description" content="A passionate intrapreneur with eighteen years of cross-functional leadership experience with one of the world’s most admired Fortune 100 corporation.Skilled ...">
+<meta property="og:site_name" content="Resumonk">
+<meta property="og:fb:admins" content="347444978643522">
+<meta property="og:twitter:card" content="summary">
+<meta property="og:twitter:site" content="@resumonk">
+<meta property="og:twitter:url" content="https://www.resumonk.com/NisarAhmedKhan">
+<meta property="og:twitter:description" content="A passionate intrapreneur with eighteen years of cross-functional leadership experience with one of the world’s most admired Fortune 100 corporation.Skilled ...">
+<meta property="og:twitter:creator" content="@resumonk">
+<meta property="og:twitter:image" content="https://www.resumonk.com/assets/resumonk-avatar.jpg">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msvalidate.01" content="E7E088CCF389799CDEEDE1F0441C03D5">
+<meta name="google-site-verification" content="n5VSmHhVxpabxxlVL8RftbLzy9WvtmLuqtd1l0Uv9Sc">
+<link rel="dns-prefetch" href="https://dy47auhrcaah2.cloudfront.net/">
+<link rel="stylesheet" media="screen" href="./Nisar Ahmed Khan_files/application-dc6bb9009bd107b20dc16bce7079cf6860f11c4b8e6aa13e6b6a403ba2084228.css">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Nrh/WBsC1scblBSoNsVnBrxwswFU9vTURNZVfJlhO2X09QBKrcg6CZe7WgpkqmInMEYqnXwMJFMy6Ne+VC8/9Q==">
+<script>
+  var trackOutboundLink = function(external_ref, source, url) {
+    var newWindow = window.open();
+    ga('send', {
+      'hitType': 'event',          // Required.
+      'eventCategory': external_ref,   // Required.
+      'eventAction': 'click',      // Required.
+      'eventLabel': ""+ external_ref + "-" + source,
+      'hitCallback': function() {
+
+        newWindow.location.href = url;
+
+      }
+    });
+  }
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-31001901-1', 'auto');
+ga('send', 'pageview');
+ga('set', 'anonymizeIp', true);
+</script>
+
+
+<script src="./Nisar Ahmed Khan_files/raven.min.js"></script>
+<script>
+Raven.config('https://302e2a6fa0eb4be7a5187bf3ea22991a@sentry.io/122803').install()
+</script>
+<script src="./Nisar Ahmed Khan_files/application-2f92aed18f50d86ef0c5f823b2fc20fb71e95ad8b3fbed860220257231bfb562.js" async="async"></script>
+<link rel="shortcut icon" type="image/x-icon" href="https://www.resumonk.com/assets/favicon-c4fae5927a71ec64022aeb833fd135bd7cbcde27949c2ab18e25b53cbc337fc2.png">
+</head>
+<body class="public_resumes show">
+
+<header class="navbar navbar-inverse normal" role="banner">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Resumonk - Beautiful Resume Templates - Online CV Builder" href="https://www.resumonk.com/">
+Nisar's Resume
+</a> </div>
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+<ul class="nav navbar-nav navbar-right">
+<li class="navbar-form">
+<a class="btn btn-primary download" href="https://www.resumonk.com/NisarAhmedKhan.pdf">Download PDF</a>
+</li>
+<li class="navbar-form">
+<a class="btn btn-primary download" href="https://nisarkhan.org">Home</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="flash-messages-container">
+</div>
+<div id="content-area" class="public-resume-container">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="js-embeddable">
+<div id="resume-cl-embed">
+<div class="tab-content">
+<div class="tab-pane active" id="resume-tab">
+<div class="resume-container custom-style-container avant html">
+<header class="about-section photo-resume">
+<div class="row personal-details">
+<div class="col-md-3 col-sm-3">
+<div class="photo">
+<img class="img-responsive" src="./Nisar Ahmed Khan_files/thumb_HEADSHOT-SMALL.png" alt="Thumb headshot small">
+</div>
+</div>
+<div class="col-sm-9 name">
+<div class="name-inner">
+<h1>
+Nisar Ahmed Khan
+</h1>
+<h6 class="subheader">Digital Marketing | eCommerce | Product Development | Technology | Retail </h6>
+</div>
+<table class="contact">
+<tbody><tr>
+<td class="label-container">
+<span class="contact-label break-word">
+Phone:
+</span>
+</td>
+<td>
+<strong>+971506449653</strong>
+</td>
+</tr>
+<tr>
+<td class="label-container">
+<span class="contact-label break-word">
+Website:
+</span>
+</td>
+<td>
+<strong class="website break-word">
+www.nisarkhan.org
+</strong>
+</td>
+</tr>
+<tr>
+<td class="label-container">
+<span class="contact-label break-word">
+Email:
+</span>
+</td>
+<td>
+<strong class="break-word">
+<a class="email" href="mailto:nisarkhan@gmail.com">
+nisarkhan@gmail.com
+</a>
+</strong>
+</td>
+</tr>
+</tbody></table>
+</div> 
+</div>
+<div class="row objective-row">
+<div class="col-md-12 col-sm-12">
+<div class="row objective">
+<div class="col-md-12">
+<p>A passionate intrapreneur with eighteen years of cross-functional leadership experience with one of the world’s most admired Fortune 100 corporation.</p><p>Skilled at developing innovative products using customer-centric design thinking and agile methodologies to deliver a tight product-market fit that impacts the bottom-line.</p><p style="text-align: center;">Specialties:</p><table style="width: 100%;"><tbody><tr><td style="width: 26.6945%;">&nbsp;Intrapreneurship<br></td><td style="width: 28.8072%;">&nbsp;Product Development<br></td><td style="width: 22.1171%;">&nbsp;Digital Marketing<br></td><td style="width: 22.073%;">&nbsp;eCommerce<br></td></tr><tr><td style="width: 26.6945%;">&nbsp;Project Management<br></td><td style="width: 28.8072%;">&nbsp;Marketing strategy<br></td><td style="width: 22.1171%;">&nbsp;Retail Business<br></td><td style="width: 22.073%;">&nbsp;Data Analytics<br></td></tr></tbody></table><p><br></p>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<section class="resume-content-section">
+<div class="section experiences">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Experience
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Mar 2018 to Present
+</div>
+</div>
+<div class="col-sm-10">
+<h3>FedEx Express</h3>
+<h4>Marketing Product Development Manager</h4>
+<div class="row">
+<div class="description col-md-12">
+<p>Lead a cross-functional team of highly skilled professionals in delivering eCommerce products and solutions for the Middle East and Africa region.</p><ul type="square"><li>Envisioned the regional eCommerce strategy and formalized the product roadmap to lay the foundation for market leadership.</li><li>Delivered eCommerce products like Cash on Delivery, FedEx Global Returns, and FedEx Fulfillment from inception to production resulting in millions of dollars in incremental revenue.</li><li>Launched the FedEx Compatible Solutions Program (fedex.com/compatible) recruiting regional development companies and certifying them as certified partners. The CSP program delivers a win-win solution connecting FedEx customer to compatible providers and resulting in business growth.</li><li>Developed the regional strategy to expand the retail footprint by partnering with convenience stores and retail outlets across the region and offer convenient delivery options to customers.</li><li>Initiated the roll-out of FedEx Delivery Manager (FDM) product in the region. FDM is a web-based application that offers customers convenient delivery options to manage their deliveries using their mobile phones. The implementation resulted in a 40% increase in the B2C business.</li></ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+May 2007 to Mar 2018
+</div>
+</div>
+<div class="col-sm-10">
+<h3>FedEx Express</h3>
+<h4>eCommerce Solutions Project Manager</h4>
+<div class="row">
+<div class="description col-md-12">
+<p>Facilitated launch of some of the largest online business portals in the middle east.</p><ul type="square"><li>Achieved organizational goal of 95 % migration of customers to online channels within three-years from 40%. Leveraged automation data analytics to develop key performance indicators. Led a cross-functional action team to grow customer adoption of the FedEx software tools, resulting in annual cost saving in excess of US$ 2.5M.</li><li>Spearheaded the development of Emirates Airline’s integrated shipping, tracking and invoicing system accessible to all departments through their intranet portal. This system successfully enabled online FedEx services for their entire ME staff resulting in the retention of over US$7M in annual revenue.</li><li>Architected shipment processing solution for EMAAR (major real estate company in the Middle East). The customized application allowed automated shipping of over 5000 property contracts daily through the integration of a Wipro developed Oracle based CRM with a FedEx shipment transaction server. This resulted in winning AED 2 Million in annual revenue.</li><li>Delivered a critical inventory fulfillment operation for Emirates Engineering department that enhances the delivery of aircraft parts to remote locations for emergency AOG (Aircraft on Ground) operations. The solution involved the deployment of an enhanced visibility solution that would allow Emirates to measure turnaround times and identify bottlenecks. The project resulted in reducing Aircraft on Ground (AoG) downtime by half for the customer.</li></ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Sep 2000 to Aug 2007
+</div>
+</div>
+<div class="col-sm-10">
+<h3>FedEx Express</h3>
+<h4>Pre-Sales Technology Consultant</h4>
+<div class="row">
+<div class="description col-md-12">
+<ul type="square"><li>Project Managed e-government initiative with the Roads and Transport Authority (RTA) allowing the renewal of driving licenses online. The project was executed in collaboration with IBM and involved the integration of their Oracle CRM with FedEx Web Services. This project resulted in a significant 40% increase in back-office workforce productivity.</li><li>Developed eCommerce portal www.mydamas.com for Damas (largest jewelry supplier in the Middle East). Orders fulfilled utilizing FedEx XML Web APIs. The solution included advice on Internet marketing strategies such as Google Analytics and SEO. The project resulted in an incremental revenue of AED 1.5 Million.</li><li>Service Desk Management: Facilitated evolution of a basic helpdesk function into a fully-fledged Service Desk by applying ITIL best practices such as the introduction of incident management, escalation procedures, knowledge base, and KPIs to improve performance.</li><li>Managed development of a web-based address management database application. This system speed cycled the delivery of local shipments for customers with large shipping volumes that frequently ship using incorrect addresses by recording correct delivery destinations and business hours for repeat shipments. The project significantly improved delivery efficiency from five to two days and increased customer satisfaction.</li><li>Delivered EDI integration with Dubai Customs Al Mersal Portal. FedEx was one of the first carriers to automate import clearance through messaging links with the Dubai Ports &amp; Customs Authority.</li></ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+May 1997 to Aug 2000
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Det Norske Veritas</h3>
+<h4>IT Administrator</h4>
+<div class="row">
+<div class="description col-md-12">
+<p>Held full accountability for maintaining IT infrastructure for this large network; managed LAN/WAN networking and IT support functions.</p><ul type="square"><li>Designed and maintained regional local and wide area network infrastructure. Marketed innovative design applications to regional customers; delivered influential presentations regarding ship design and maintenance application. Interacted with senior management; provided expertise regarding IT infrastructure-related decisions.</li><li>Maintained file servers, email servers, and application servers. Established long term relationships with vendors; managed vendor service level agreements for enterprise-level support and IT outsourcing. Trained staff on various applications and IT policies.</li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section educations">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Education
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2018 to 2018
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Massachusetts Institute of Technology</h3>
+<h4>MIT Entrepreneurship &amp; Innovation</h4>
+<div class="row">
+<div class="description col-md-12">
+<p>A specialized course on entrepreneurship and Innovation&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2016 to 2017
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Seth Godin's altMBA</h3>
+<div class="row">
+<div class="description col-md-12">
+<p>The altMBA is an intensive, 4-week online workshop designed by Seth Godin for high-performing individuals who want to level up and lead.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2007 to 2009
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Griggs Univesity</h3>
+<h4>MBA</h4>
+<div class="row">
+<div class="description col-md-12">
+MBA - Master of Business Administration
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+1993 to 1996
+</div>
+</div>
+<div class="col-sm-10">
+<h3>University of Pune</h3>
+<h4>Bachelor of Computer Science</h4>
+<div class="row">
+<div class="description col-md-12">
+BS Computer Sciences
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section skills">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Skills
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+</div>
+<div class="col-sm-10">
+<div class="row">
+<div class="description col-md-12">
+<p>Intrapreneurship, Project Management, eCommerce, product development, technology, tech, innovation, disruption, branding, digital, marketing, digital transformation, digital marketing, customer experience, supply chain, logistics, startup, Entrepreneur, Business, Integration, Service Delivery, Customer Experience, Software Development, Network Infrastructure, PMP, IT Strategy, ITIL, Software Project Management, Process Improvement, Program Management, PMO, Logistics, Cloud Computing, E-commerce Consulting, Supply Chain, Vendor Management, Business Analysis, Management, IT Management, Team Leadership, CRM, MS Project, Business Development, E-commerce, Enterprise Architecture, Management Consulting, Enterprise Software, Leadership, Analysis, Business Intelligence, Customer Relationship Management (CRM),</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section projects">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Projects
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2015 - Present
+</div>
+</div>
+<div class="col-sm-10">
+<h3>JadoPado.com Integration</h3>
+<h4><a href="http://www.noon.com/" target="_blank">http://www.noon.com</a></h4>
+<div class="row">
+<div class="description col-md-12">
+<p>Spearheaded a fulfillment solution for JadoPado.com, a popular consumer electronics eCommerce retailer in the UAE. Worked closely with the founder and development team at JadpPado to deliver a solution that significantly reduced transportation time and enhanced operational efficiency giving JadoPado a head start in international shipping for their portal. The project resulted in incremental revenue of Millions of dirhams for FedEx.</p><p>JadoPado was bought over by <a href="https://noon.com/" rel="noopener noreferrer noopener noreferrer" target="_blank">noon.com</a>, who still run the platform.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Aug 2015 to Present
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Emirates Official Store</h3>
+<h4><a href="https://www.emirates.com/ae/english/experience/shop-emirates/official-store/" target="_blank">https://www.emirates.com/ae/english/experience/shop-emirates/official-store/</a></h4>
+<div class="row">
+<div class="description col-md-12">
+Delivered an end-to-end value stream supply chain fulfillment solution for one of the top ten largest ecommerce website in Dubai. Representing millions of dollars in annual revenue.<br>Technology integration with the customer’s SAP system was a key selling proposition for the customer.<br>The solution was developed by the 3PL warehousing partner with an integrated advanced shipping engine.<br>The customer also had a very specific requirement for managing international returns.<br>The latest technology using email based label generation functionality was implemented to manage their Global returns. The functionality allows consumers to receive an email link to a portal, which makes a breeze to produce shipping documents.<br>This significantly improves the customer’s ability to manage their returns inventory and gives them end to end visibility of their returns process.<br>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Nov 2011 to Present
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Fulfillment integration for Sheeel.com</h3>
+<h4><a href="http://www.sheeel.com/" target="_blank">http://www.sheeel.com</a></h4>
+<div class="row">
+<div class="description col-md-12">
+Supported launch of sheeel.com in Dubai. Designed their eCommerce fulfillment solution allowing them to deliver their daily deals to their customers.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section certifications">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Certifications
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+May 2007 to May 2009
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Project Management Professional - PMP</h3>
+<h4>Project Management Institute</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Mar 2008 to Mar 2008
+</div>
+</div>
+<div class="col-sm-10">
+<h3>ITIL - IT Information Library</h3>
+<h4>Office of Government Commerce</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Jan 2006 to Jan 2010
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Cisco Certified Network Associate</h3>
+<h4>Cisco</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Mar 2017
+</div>
+</div>
+<div class="col-sm-10">
+<h3>FedEx Certified Manager</h3>
+<h4>FedEx</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Jul 2016 to Jul 2016
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Foundations of Programming: Object-Oriented Design</h3>
+<h4>Lynda.com</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Aug 2016 to Aug 2016
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Up and Running with Node.js</h3>
+<h4>Lynda.com</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Oct 2016 to Oct 2016
+</div>
+</div>
+<div class="col-sm-10">
+<h3>MEAN Stack and MongoDB Development Techniques</h3>
+<h4>Lynda.com</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Oct 2016 to Oct 2016
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Node.js First Look</h3>
+<h4>Lynda.com</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Apr 2019
+</div>
+</div>
+<div class="col-sm-10">
+<h3>SAFe 4 Practitioner Certification</h3>
+<h4>Scaled Agile, Inc.</h4>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+Apr 2019 to Apr 2020
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Certified SAFe® 4 Practitioner</h3>
+<h4>Scaled Agile, Inc.</h4>
+</div>
+</div>
+</div>
+</div>
+<div class="section recommendations">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-2">
+<h2 class="section-header">
+<span>
+Recommendations
+</span>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2/16/15, 5:57 AM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Stephen Friel</h3>
+<h4>District Sales Manager, FedEx</h4>
+<div class="row">
+<div class="description col-md-12">
+I worked with Nisar on a number of advanced customer integrations and internal Sales trainings.<br>Nisar has a wide depth of Information technology and Sales skills. He is able to translate complex sets of customer needs and develop IT solutions that have in my experience exceeded customer expectations.<br>Nisar is able to manage complex projects in tight timescales calmly and with confidence.<br>Nisar has shown strong leadership qualities in his ability to manage cross functional teams in development projects.<br>In conducting Sales training Nisar was able to identify the key needs of the audience and tailor trainings to the audience level of IT understanding and development.<br>Hi is a team player and a pleasure to work with.<br>I would recommend Nisar for leadership roles.<br>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+7/8/14, 12:32 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Stephen Phelan</h3>
+<h4>Managing Director - Middle East Region, Sims Recycling Solutions</h4>
+<div class="row">
+<div class="description col-md-12">
+I have had the privilege of working with Nisar. It’s rare that you come across such a standout talent. His passion for technology combined with his creative intellect make him an indispensable asset. If nobody else has the solution, you can turn to Nisar to solve your problem.
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+2/25/09, 7:07 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Afzal Veettil</h3>
+<h4>Sr. Engineer, Business Intelligence &amp; Analytics, EU Strategic Planning &amp; Engineering, FedEx Express</h4>
+<div class="row">
+<div class="description col-md-12">
+Nisar is a talented technology professional with immense business consulting experience. This is evident fom his profile as he has been instrumental in closing some of the biggest names in our Customer community by uniquely position FedEx E Commerce solutions and created an eco system that delivers value and propelled business to the next level.<br>I have worked with Nisar for almost 9 years and seen his transformation from a professional possessing great technical skills to a matured individual who can inspire and lead. The true testimony to this fact is my own PMP Certification as he truly believed in the value of Project Management and the difference that it can bring to the team and the organization. Since then, FedEx IT in Middle East has added 5 certified Project Managers and he has been championing this through the Organization.<br>Nisar, way to go...
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+6/15/10, 3:53 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Badre Maktari</h3>
+<h4>Director of IT, RSA Global</h4>
+<div class="row">
+<div class="description col-md-12">
+Nisar is the glue of the team, his customer relationship skills are of the highest standard and customer focus attitude constantly delivers an outstanding experience to our customers.<br>His commitment is also fantastic when working with other departments. Each an every time my team or I have worked with him, delivery of agreed actions has never been an issue. Nisar's determination is superb especially when the task given is new and not well defined.<br>In terms of self-development he is one of few individuals in the company, that repeatedly over 10 years has made full utilization of the FedEx benefit of tuition assist. I have personally been a witness to his professional growth and his progress is substantial to say the least.<br>Highly recommended to any role that requires high levels of customer focus, a through<br>IT understanding and a strong team player nature.
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+12/30/08, 9:25 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Naveed Khan</h3>
+<h4>Head of Application Architecture and Customer Technology (CTO), Middle East &amp; Africa, FedEx Express</h4>
+<div class="row">
+<div class="description col-md-12">
+I worked with Nisar for several years as his direct manager. Nisar is an honest individual with high integrity. This is coupled by a keen intellect and desire to achieve.<br>Nisar has developed significant client facing skills in his time with FedEx. He is at ease in front of a client as he is with detailed technical project specifics. Nisar is PMP certified.<br>I would love to work again with Nisar given the opportunity.
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-sm-2">
+<div class="date">
+6/15/10, 3:22 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Badre Maktari</h3>
+<h4>Director of IT, RSA Global</h4>
+<div class="row">
+<div class="description col-md-12">
+Nisar's is the glue of the team, his customer relationship skills are of the highest standard and customer focus attitude constantly delivers an outstanding experience to our customers.<br>His commitment is also fantastic when working with other departments. Each an every time my team or I have worked with him, delivery of agreed actions has never been an issue. Nisar's determination is superb especially when the task given is new and not well defined.<br>In terms of self-development he is one of few individuals in the company, that repeatedly over 10 years has made full utilization of the FedEx benefit of tuition assist. I have personally been a witness to his professional growth and his progress is substantial to say the least.<br>Highly recommended to any role that requires high levels of customer focus, a through<br>IT understanding and a strong team player nature.
+</div>
+</div>
+</div>
+</div>
+ <div class="item">
+<div class="col-sm-2">
+<div class="date">
+10/7/08, 5:45 PM
+</div>
+</div>
+<div class="col-sm-10">
+<h3>Zaheer Ahmed</h3>
+<h4>Lead Solutions Architect, QBE Insurance</h4>
+<div class="row">
+<div class="description col-md-12">
+Always dependable. Knowledgeable on both technical and business areas. Great to work with and have on the team.<br>Keep it up!<br>Zaheer
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" media="screen" href="./Nisar Ahmed Khan_files/avant-f79fb572cb2f5a712aee621824df3cf7f365bd11356230493a1da8a0c81b027c.css">
+<link rel="stylesheet" media="screen" href="./Nisar Ahmed Khan_files/monda.css">
+<style id="custom-styles-template-specific">
+  .custom-style-container {
+    font-family: "Monda";
+    font-weight: normal;
+  }
+
+  .custom-style-container h1,
+  .custom-style-container h2,
+  .custom-style-container h3,
+  .custom-style-container h4,
+  .custom-style-container h5,
+  .custom-style-container h6,
+  .custom-style-container strong,
+  .custom-style-container b,
+  .custom-style-container th {
+    font-family: "Monda";
+    font-weight: bold;
+  }
+</style>
+<style id="custom-styles-replacable">
+
+
+.custom-style-container {
+
+    color: auto;
+
+    font-size: 14px;
+}
+
+.custom-style-container .resume-content-section .section .item h3,
+.custom-style-container .resume-content-section .section .item h4,
+.custom-style-container .about-section .objective,
+.custom-style-container .about-section .personal-details .name h1,
+.custom-style-container .about-section .personal-details .name h4,
+.custom-style-container .about-section .personal-details .name h6,
+.custom-style-container .contact span,
+.custom-style-container .resume-content-section .section .section-header,
+.custom-style-container .about-section .section-header,
+.custom-style-container .resume-content-section .date,
+.custom-style-container .resume-content-section .section .item .date
+{
+  color: auto;
+}
+
+
+/* Template specific */
+.stylismo.custom-style-container .about-section .objective-wrapper .contact-panel h3,
+.stylismo.custom-style-container .about-section .objective-wrapper .objective,
+.sleek.custom-style-container .about-section .contact tr .label-container span
+{
+  color: auto;
+}
+
+.clear.custom-style-container .resume-content-section .section .section-header,
+.clear.custom-style-container .about-section .personal-details .name h1:after,
+.collegium.custom-style-container .resume-content-section .section .section-header,
+.collegium.custom-style-container .about-section .personal-details .name h1:after,
+.concrete.custom-style-container .resume-content-section .section .section-header,
+.prestige.custom-style-container .resume-content-section .section .section-header,
+.prestige.custom-style-container .about-section .personal-details .contact-panel .contact tr .label-container span,
+.prestige.custom-style-container .about-section .section-header
+{
+  background-color: auto;
+}
+
+.bold.custom-style-container .resume-content-section,
+.bold.custom-style-container .about-section,
+.bold.custom-style-container .resume-content-section .section .section-header,
+.vivid.custom-style-container .resume-content-section,
+.vivid.custom-style-container .about-section,
+.vivid.custom-style-container .resume-content-section .section .section-header,
+.concrete.custom-style-container .one-fourth,
+.concrete.custom-style-container .three-fourth,
+.slim.custom-style-container .about-section,
+.charisma.custom-style-container .section-header .border,
+.modernism.custom-style-container .resume-content-section .section .section-header,
+.modernism.custom-style-container .about-section .name,
+.stylismo.custom-style-container .resume-content-section .section,
+.stylismo.custom-style-container .about-section .objective-wrapper,
+.prestige.custom-style-container .resume-content-section .section,
+.prestige.custom-style-container .about-section .personal-details,
+.simplimo.custom-style-container .about-section,
+.simplimo.custom-style-container .about-section .personal-details,
+.simplimo.custom-style-container .resume-content-section .section .item,
+.vibrant.custom-style-container .about-section.photo-resume .photo img,
+.vivid.custom-style-container .about-section.photo-resume .photo img,
+.clear.custom-style-container .about-section.photo-resume .photo img,
+.avant.custom-style-container .about-section.photo-resume .photo img,
+.avant.custom-style-container .about-section .personal-details
+{
+  border-color: auto;
+}
+
+</style>
+<style id="custom-styles-nonreplacable">
+  .prestige.custom-style-container .resume-content-section .section .section-header,
+  .prestige.custom-style-container .about-section .section-header,
+  .concrete.custom-style-container .resume-content-section .section .section-header
+  {
+    color: #fff;
+  }
+  
+  .avant.custom-style-container .about-section .personal-details .name h1,
+  .avant.custom-style-container .about-section .personal-details .name h4,
+  .avant.custom-style-container .about-section .personal-details .name h6,
+  .avant.custom-style-container .contact span {
+    color: #fff;
+  }
+</style>
+</div>
+<br><br>
+<script>ga('send', 'pageview');</script>
+
+</body></html>
